@@ -1,0 +1,218 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext{
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.section-1{
+    background-color: #1f2937;
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.navbar{
+    color: #e5e7eb;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.navbar .logo{
+    margin-right: auto;
+    font-size: 36px;  
+}
+
+.navbar li{
+    list-style-type: none;
+    font-family: "Raleway", sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    flex-shrink: 0;
+    gap: 8px;
+}
+
+.jumbotron .left h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    line-height: 3rem;
+}
+
+.jumbotron .left p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.jumbotron .left button{
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+}
+
+.jumbotron .left a{
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron .right{
+    padding: 40px;
+    background-color: rgb(126, 128, 133);
+    flex-basis: 300px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron .right p{
+    color: white;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    height: 400px;
+    padding-bottom: 60px;
+}
+
+.section-2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Raleway";
+}
+
+.section-2 .boxes{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.section-2 .box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-2 .box-text .text{
+    width: 100px;
+    text-align: center;
+}
+
+.section-2 .box{
+    border:#3882f6 solid 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.section-3{
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .quote-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-basis: 550px;
+}
+
+.section-3 .author{
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.section-3 .quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    flex-shrink: 0;
+}
+
+.section-4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-4 .blue-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    color: white;
+    background-color: #3882f6;
+    padding: 30px 80px;
+}
+
+.section-4 .call2action{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 .call2action h3{
+    font-family: "Raleway";
+}
+
+.section-4 .sign-up button{
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-weight: bold;
+    width: 100px;
+    border: white solid 1px;
+}
+
+.section-4 .sign-up a{
+    text-decoration: none;
+    color: white;  
+}
+
+.footer{
+    height: 60px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
